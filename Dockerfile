@@ -46,7 +46,7 @@ EXPOSE 5000
 
 # Run the application with optimized settings
 CMD ["gunicorn", \
-     "--timeout", "300", \
+     "--timeout", "600", \
      "--workers", "1", \
      "--threads", "4", \
      "--worker-class", "gthread", \
