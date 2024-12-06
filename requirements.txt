@@ -6,3 +6,4 @@ Pillow==9.4.0
 opencv-python==4.5.5.64
 numpy>=1.26.0,<2.1.0
 matplotlib==3.5.1
+torch
